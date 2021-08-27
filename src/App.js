@@ -1,14 +1,11 @@
-import "./App.css";
+import React from "react";
+import Home from "./page";
+import "antd/dist/antd.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="/banquete_logo.svg" alt="logo" />
-        <p className="App-link">PROXIMAMENTE</p>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Home />
+  </>
+);
 
 export default App;
